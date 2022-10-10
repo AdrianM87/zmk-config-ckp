@@ -28,11 +28,11 @@
 		};
 		raise {
 			bindings = <
-				&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &trans
+				&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &trans &rgb_ug RGB_TOG
 				&kp CAPS  &trans &kp UP &trans &trans &trans &trans &trans &trans &kp INS &kp HOME &kp PG_UP  &kp PSCRN  &trans
 				&trans    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &kp DEL &kp END &kp PG_DN   &bl BL_TOG
 				&trans 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans
-				&trans  &bt BT_PRV  &bt BT_NXT              &trans                           &bt BT_CLR  &trans  &trans
+				&trans  &bt BT_PRV  &bt BT_NXT              &trans                           &trans &bt BT_CLR  &trans
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
